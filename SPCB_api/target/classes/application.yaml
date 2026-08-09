@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: SPCB_api
+
+  datasource:
+    url: jdbc:mysql://143.106.241.4:3306/
+    username: cl204226
+    password: cl*21082007
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
